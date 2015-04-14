@@ -1,0 +1,195 @@
+body {
+  overflow-y: scroll;
+  margin: 0 auto;
+  background-image: url(../../images/style/dark-planingwood.png);
+}
+
+/*--------- Navbar Styles ---------*/
+
+.navbar{
+  margin: 30px;
+  margin-top: 125px;
+  height: 50px;
+  border-bottom-left-radius: 70000000%;
+  border-bottom-right-radius: 70000000%;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 3px;
+  background-color: black;
+  z-index: 1;
+}
+#nav div{
+  display: inline;
+  color: white;
+  margin-top: 10px;
+}
+#nav #left{
+  float: left;
+}
+#nav #left div{
+  margin-left: 80px;
+}
+#nav #right{
+  float: right;
+}
+#nav #right div{
+  margin-right: 80px;
+}
+.navbar a{
+	color: white;
+}
+.navbar a:visited{
+	color: white;
+}
+.navbar a:active{
+	color: #7F7F7F;
+}
+#logo{
+  z-index: 3;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: -125px;
+}
+
+/*--------- Main Body Styles ---------*/
+
+.main{
+  width: 80%;
+  margin: 0 auto;
+  margin-top:75px;
+  max-width: 100%;
+}
+.mainBody{
+	width:80%;
+	margin:0 auto;
+	margin-top:75px;
+	background-color: rgba(14, 12, 12, 0.89);
+	border:double white 5px;
+	padding:50px;
+	color: white;
+}
+
+/*--------- Homepage ---------*/
+
+#carousel{
+  height:inherit;
+  max-width:100%;
+  border: 5px white double;
+}
+#carousel img{
+  margin: 0 auto;
+  height: 540px;
+  width: 100%
+}
+
+/*--------- Gallery ---------*/
+
+#galleryAll li {
+	width: 50px;
+	height: 50px;
+}
+.galleryPage .item {
+	width: 25%;
+	padding: 5px;
+}
+.galleryPage .item img {
+	max-width: 100%;
+}
+.galleryPage .item.w2 {
+	width: 50%;
+}
+#filters {
+	text-align: center;
+	margin: 10px;
+}
+
+#loadSpinner {
+	margin: 50px;
+	text-align: center;
+}
+
+#loadSpinner img {
+	height: 100px;
+	width: 100px;
+}
+
+/*--------- Services ---------*/
+
+.servicesPage h4{
+	width: 45%;
+	margin: 0 auto;
+}
+
+/*--------- About ---------*/
+
+.aboutPage {
+	background-image: url('../../gallery/all/El2.jpg');
+	background-size: cover;
+	height: 500px;
+	position: relative;
+}
+#about{
+	position: absolute;
+	bottom: 150px;
+	left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  }
+#about h4{
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	text-align: center;
+}
+
+/*--------- Shop ---------*/
+
+
+
+/*--------- Contact ---------*/
+
+.contactPage {
+	background-image: url('../../gallery/all/26l2.jpg');
+	background-size: cover;
+}
+#contactForm {
+  padding:10px;
+  background-color: rgba(0,0,0,0.5);
+}
+input,
+button,
+textarea,
+option,
+select {
+  color: black;
+}
+#formContainer {
+  margin: 0 auto;
+}
+table {
+  text-align: left;
+}
+label {
+  padding-right: 1.15em;
+}
+textarea#message {
+  margin-top: 15px;
+  resize:none;
+  width:100%;
+}
+table#contactInfo td{
+  padding: 2px;
+}
+
+/*--------- Misc ---------*/
+
+.footer{
+	height:50px;
+	color: #808080;
+	bottom:0;
+	margin-top:50px;
+	padding:30px;
+}
+.thanksPage {
+	text-align: center;
+}
